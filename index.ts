@@ -151,4 +151,4 @@ const tamilMessages: TranslationMessages = {
     },
 };
 
-export default raTranslation;
+export default tamilMessages;
