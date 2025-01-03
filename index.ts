@@ -41,6 +41,7 @@ const tamilMessages: TranslationMessages = {
             open: 'திற',
             toggle_theme: 'தீமை மாற்று',
             select_columns: 'பத்திகள்',
+            update_application: 'பயன்பாட்டை மீட்டமை',
         },
         boolean: {
             true: 'ஆம்',
@@ -58,6 +59,8 @@ const tamilMessages: TranslationMessages = {
             show: '%{name} %{recordRepresentation} காட்டு',
             empty: 'இன்னும் %{name} எதுவும் இல்லை.',
             invite: 'ஒருவரைச் சேர்க்க விரும்புகிறீர்களா?',
+            access_denied: 'அனுமதி மறுக்கப்பட்டது',
+            authentication_error: 'அங்கீகார பிழை',
         },
         input: {
             file: {
@@ -82,6 +85,7 @@ const tamilMessages: TranslationMessages = {
                 toggle_visible: 'கடவுச்சொல் மறைக்கவும்',
                 toggle_hidden: 'கடவுச்சொல் காட்டுக',
             },
+            clear_array_input: 'பட்டியலை முழுவதும் அழிக்கவா நீங்கள் உறுதியாக உள்ளீர்களா?',
         },
         message: {
             about: 'பற்றி',
@@ -103,8 +107,13 @@ const tamilMessages: TranslationMessages = {
             yes: 'ஆம்',
             unsaved_changes:
                 "சேமிக்கப்படவில்லை மாற்றங்கள் ஏற்பட்டுள்ளன. நீங்கள் மீளமைக்கவாமல் பக்கத்திலிருந்து வெளியேற விரும்புகிறீர்களா?",
+            access_denied: 'இந்தப் பக்கத்தை அணுக உங்களுக்கு உரிமைகள் இல்லை',
+            authentication_error:
+                'அங்கீகார சேவையகம் பிழை அளித்துள்ளது, உங்கள் நற்சான்றுகள் சரிபார்க்க முடியவில்லை.',
         },
         navigation: {
+            clear_filters: 'வடிகட்டுக்களை நீக்கு',
+            no_filtered_results: 'தற்போதைய வடிகட்டுகளைப் பயன்படுத்தி %{name} எதுவும் கிடைக்கவில்லை.',
             no_results: 'முடிவுகள் எதுவும் கிடைக்கவில்லை.',
             no_more_results:
                 'பக்கத்தின் மேல்முடிவு அடுத்த பக்கத்திற்குள் செல்கிறது.',
@@ -115,6 +124,14 @@ const tamilMessages: TranslationMessages = {
             page_rows_per_page: 'வரிசையில் பக்கத்தில்:',
             next: 'அடுத்தது',
             prev: 'முந்தையது',
+            first: 'முதல் பக்கத்திற்கு செல்லுங்கள்',
+            last: 'இறுதி பக்கத்திற்கு செல்லுங்கள்',
+            skip_nav: 'உள்ளடக்கத்திற்கு செல்லவும்',
+        },
+        sort: {
+            sort_by: '%{field_lower_first} %{order} மூலம் வரிசைப்படுத்து',
+            ASC: 'ஏறுவரிசை',
+            DESC: 'இறங்குவரிசை',
         },
         auth: {
             auth_check_error: 'மொத்தமான மூலதனியக்க பிழை. தயவுசெய்து உள்நுழைய மீட்டருக்கு.',
@@ -147,6 +164,17 @@ const tamilMessages: TranslationMessages = {
             email: 'தவறான மின்னஞ்சல்',
             oneOf: 'அரசியல் அமைப்பில் சரியானது இருக்க வேண்டும்: %{options}',
             regex: 'தகவல் எழுத்துரு தவறானது (regexp): %{pattern}',
+        },
+        saved_queries: {
+            label: 'சேமித்த வினவல்கள்',
+            query_name: 'வினவல் பெயர்',
+            new_label: 'தற்போதைய வினவலைச் சேமிக்கவும்...',
+            new_dialog_title: 'தற்போதைய வினவலை சேமிக்கவும்',
+            remove_label: 'சேமித்த வினவலை நீக்கு',
+            remove_all_labels: 'அனைத்து சேமித்த வினவலையும் நீக்கு',
+            add_query: 'வினவலைச் சேர்க்கவும்',
+            add: 'சேர்',
+            save_query: 'வினவலை சேமி',
         },
     },
 };
